@@ -3,15 +3,15 @@ import pyperclip
 import math
 import time
 
-pyautogui.click(456,1057) #Position of the chat bar
+pyautogui.click(456,1057) #Position of the chat bar on the sceen
 pyautogui.typewrite("!ep1")
 pyautogui.typewrite(["enter"])
 time.sleep(0.5)
-pyautogui.doubleClick(375,359) #Position of the received text (n1)
+pyautogui.doubleClick(375,359) #Position of the received text (n1) on the sceen
 pyautogui.hotkey('ctrl','c')
 root = int(pyperclip.paste())
 root = math.sqrt(root)
-pyautogui.doubleClick(420,357) #Position of the received text (n2)
+pyautogui.doubleClick(420,357) #Position of the received text (n2) on the sceen
 pyautogui.hotkey('ctrl','c')
 multiply = int(pyperclip.paste())
 value = root * multiply
