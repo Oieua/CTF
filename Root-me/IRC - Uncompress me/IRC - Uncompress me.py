@@ -4,7 +4,7 @@ import base64
 import time
 import zlib
 
-#Find position of the cursor
+#Find position of the cursor (x and y coordinates)
 #while True:
 #	print(pyautogui.position())
 
