@@ -3,6 +3,11 @@ import pyperclip
 import math
 import time
 
+
+#Find position of the cursor (x and y coordinates)
+#while True:
+#	print(pyautogui.position())
+
 pyautogui.click(456,1057) #Position of the chat bar on the sceen
 pyautogui.typewrite("!ep1")
 pyautogui.typewrite(["enter"])
