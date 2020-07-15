@@ -4,6 +4,11 @@ import base64
 import time
 
 
+#Find position of the cursor (x and y coordinates)
+#while True:
+#	print(pyautogui.position())
+
+
 pyautogui.click(377,360) #Position of the chat bar on the screen
 pyautogui.typewrite("!ep2")
 pyautogui.typewrite(["enter"])
