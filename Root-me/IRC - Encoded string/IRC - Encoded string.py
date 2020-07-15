@@ -4,11 +4,11 @@ import base64
 import time
 
 
-pyautogui.click(377,360)
+pyautogui.click(377,360) #Position of the chat bar
 pyautogui.typewrite("!ep2")
 pyautogui.typewrite(["enter"])
 time.sleep(0.5)
-pyautogui.tripleClick(375,359)
+pyautogui.tripleClick(375,359) #Position of the received text
 pyautogui.hotkey('ctrl','c')
 encoded = str(pyperclip.paste())
 decoded = str(base64.b64decode(encoded))
