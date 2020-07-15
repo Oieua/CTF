@@ -3,11 +3,11 @@ import pyperclip
 import time
 import codecs
 
-pyautogui.click(377,360) #Position of the chat bar
+pyautogui.click(377,360) #Position of the chat bar on the sceen
 pyautogui.typewrite("!ep3")
 pyautogui.typewrite(["enter"])
 time.sleep(0.5)
-pyautogui.tripleClick(375,359) #Position of the received text
+pyautogui.tripleClick(375,359) #Position of the received text on the sceen
 pyautogui.hotkey('ctrl','c')
 encoded = str(pyperclip.paste())
 decoded = str(codecs.encode(encoded,'rot_13'))
